@@ -99,7 +99,7 @@ print(result_df)
 
 ## Visual Illustration
 
-![lithology_intervals](https://github.com/mikace23/Lithology-Interval-Merging/assets/128716197/885b6345-0eb8-43c5-99e1-be2ed76f9618)
+![lithology_intervals](https://github.com/mikace23/lithology_intervals.png)
 
 ## Final Notes
 
@@ -108,31 +108,3 @@ The Python script provided will expand, sort, and merge the lithology intervals 
 ## License
 
 This project is licensed under the MIT License.
-```
-
-### Steps to Add the Image from Smartphone
-Here’s a quick guide on how to add the `visualization.png` image from your smartphone:
-
-1. **Open the GitHub App or Mobile Browser:**
-   - Use the GitHub app or go to [GitHub](https://github.com) on your mobile browser.
-
-2. **Navigate to Your Repository:**
-   - Go to the repository where you want to add the image.
-
-3. **Add the Image:**
-   - Tap on "Add file" and then "Upload files".
-   - Select the image file (`visualization.png`) from your phone’s storage.
-
-4. **Commit the Changes:**
-   - Provide a commit message such as "Add visualization.png for interval merging illustration".
-   - Tap "Commit changes".
-
-5. **Update the README.md:**
-   - Open the README.md file and tap the edit button.
-   - Insert the image link:
-     ```markdown
-     ![lithology_intervals](https://github.com/mikace23/Lithology-Interval-Merging/assets/128716197/885b6345-0eb8-43c5-99e1-be2ed76f9618)
-     ```
-   - Save the changes by committing with a suitable message, e.g., "Update README to include visualization image".
-
-By following these steps, your GitHub repository will be properly set up with the image correctly referenced in the README file.
