@@ -99,7 +99,7 @@ print(result_df)
 
 ## Visual Illustration
 
-![lithology_intervals](https://github.com/mikace23/lithology_intervals.png)
+![lithology_intervals](lithology_intervals.png)
 
 ## Final Notes
 
