@@ -103,4 +103,4 @@ print(result_df)
 
 ### Final Notes
 
-The Python script provided will expand, sort, and merge the lithology intervals effectively. The output will be a consolidated set of intervals with correct depth ranges and lithology rankings. The visual illustration 'lithology_intervals.png' is included to facilitate understanding of the repository.
+The Python script provided will expand, sort, and merge the lithology intervals effectively. The output will be a consolidated set of intervals with correct depth ranges and lithology rankings. The visual illustration lithology_intervals.png is included to facilitate understanding of the repository.
