@@ -1,12 +1,12 @@
-### Repository: Lithology Interval Merging
+# Lithology Interval Merging
 
-#### Problematic
+## Problematic
 
 Given a dataset comprising lithology intervals with corresponding depth ranges, our goal is to merge contiguous intervals of the same lithology while ensuring the integrity of the data and maintaining the ranking of lithology based on input. This problem typically arises in geological interpretations where lithology data from various depths needs to be consolidated for accurate analysis.
 
-#### Example
+## Example
 
-Input:
+### Input:
 ```
 | lithology | from   | to       |
 |-----------|--------|----------|
@@ -19,7 +19,7 @@ Input:
 | Sandstone | 10.00  | 13.00    |
 ```
 
-Desired Output:
+### Desired Output:
 ```
 | lithology | from  | to    |
 |-----------|-------|-------|
@@ -30,13 +30,13 @@ Desired Output:
 | Sandstone | 30.13 | 70.64 |
 ```
 
-### Solution Method
+## Solution Method
 
 1. **Data Expansion**: Expand each interval to cover every 0.01 unit within its range.
 2. **Sorting**: Sort the expanded data by meter and lithology.
 3. **Interval Merging**: Merge contiguous intervals of the same lithology.
 
-### Python Program
+## Python Program
 
 Here's the Python script that accomplishes this:
 
@@ -97,10 +97,42 @@ result_df.to_csv('final_output.txt', sep='\t', index=False)
 print(result_df)
 ```
 
-### Visual Illustration
+## Visual Illustration
 
-![Interval Merging Visualization](./lithology_intervals.png)
+![lithology_intervals](https://github.com/mikace23/Lithology-Interval-Merging/assets/128716197/885b6345-0eb8-43c5-99e1-be2ed76f9618)
 
-### Final Notes
+## Final Notes
 
-The Python script provided will expand, sort, and merge the lithology intervals effectively. The output will be a consolidated set of intervals with correct depth ranges and lithology rankings. The visual illustration lithology_intervals.png is included to facilitate understanding of the repository.
+The Python script provided will expand, sort, and merge the lithology intervals effectively. The output will be a consolidated set of intervals with correct depth ranges and lithology rankings. The visual illustration `lithology_intervals.png` is included to facilitate understanding of the repository.
+
+## License
+
+This project is licensed under the MIT License.
+```
+
+### Steps to Add the Image from Smartphone
+Here’s a quick guide on how to add the `visualization.png` image from your smartphone:
+
+1. **Open the GitHub App or Mobile Browser:**
+   - Use the GitHub app or go to [GitHub](https://github.com) on your mobile browser.
+
+2. **Navigate to Your Repository:**
+   - Go to the repository where you want to add the image.
+
+3. **Add the Image:**
+   - Tap on "Add file" and then "Upload files".
+   - Select the image file (`visualization.png`) from your phone’s storage.
+
+4. **Commit the Changes:**
+   - Provide a commit message such as "Add visualization.png for interval merging illustration".
+   - Tap "Commit changes".
+
+5. **Update the README.md:**
+   - Open the README.md file and tap the edit button.
+   - Insert the image link:
+     ```markdown
+     ![lithology_intervals](https://github.com/mikace23/Lithology-Interval-Merging/assets/128716197/885b6345-0eb8-43c5-99e1-be2ed76f9618)
+     ```
+   - Save the changes by committing with a suitable message, e.g., "Update README to include visualization image".
+
+By following these steps, your GitHub repository will be properly set up with the image correctly referenced in the README file.
